@@ -4,5 +4,5 @@ Feature: Search song in youtube
 
     Scenario: Search song in youtube
         Given Mario is on youtube home page
-        When he search for song
+        When he search for song "Locked out of heaven"
         Then he should be able to see song

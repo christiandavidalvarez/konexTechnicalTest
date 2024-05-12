@@ -1,4 +1,4 @@
-package automationtest.api.requres.runner;
+package com.co.konex.technicaltest.automationtest.youtube.runners;
 
 import org.junit.platform.suite.api.ConfigurationParameter;
 import org.junit.platform.suite.api.IncludeEngines;
@@ -11,5 +11,5 @@ import static io.cucumber.junit.platform.engine.Constants.PLUGIN_PROPERTY_NAME;
 @IncludeEngines("cucumber")
 @SelectClasspathResource("/features/youtube/")
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "io.cucumber.core.plugin.SerenityReporterParallel,pretty,timeline:build/test-results/timeline")
-public class YoutubeCucumberTestSuite {
+public class CucumberTestSuite {
 }
