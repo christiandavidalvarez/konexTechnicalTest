@@ -1,0 +1,12 @@
+com\co\konex\technicaltest\automationtest\common\utils\Credentials.class
+com\co\konex\technicaltest\automationtest\youtube\play\questions\PlayPageQuestions.class
+com\co\konex\technicaltest\automationtest\youtube\login\tasks\Login.class
+com\co\konex\technicaltest\automationtest\youtube\ui\HomePage.class
+com\co\konex\technicaltest\automationtest\common\navigation\YoutubeHomePage.class
+com\co\konex\technicaltest\automationtest\youtube\ui\PlayPage.class
+com\co\konex\technicaltest\automationtest\common\navigation\NavigateTo.class
+com\co\konex\technicaltest\automationtest\youtube\home\tasks\Search.class
+com\co\konex\technicaltest\automationtest\youtube\ui\SongsResult.class
+com\co\konex\technicaltest\automationtest\youtube\ui\LoginPage.class
+com\co\konex\technicaltest\automationtest\youtube\searchResults\tasks\SelectSong.class
+com\co\konex\technicaltest\automationtest\youtube\login\questions\LoginPageQuestion.class
