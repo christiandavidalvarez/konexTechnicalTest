@@ -6,8 +6,13 @@ import net.serenitybdd.screenplay.actions.Open;
 
 public class NavigateTo {
     public static Performable theYoutubeHomePage() {
-        return Task.where("{0} opens the home page Demo Blaze",
+        return Task.where("{0} opens the home page Youtube",
                 Open.browserOn().the(YoutubeHomePage.class));
+    }
+
+    public static Performable theWikipediaHomePage() {
+        return Task.where("{0} opens the home page Wikipedia",
+                Open.browserOn().the(WikipediaHomePage.class));
     }
 
 }
