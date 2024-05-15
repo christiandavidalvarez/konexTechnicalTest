@@ -25,8 +25,8 @@ public class SearchWordStepDefinition {
         );
     }
 
-    @Then("{actor} should see the word {string} in the results tittle")
-    public void he_should_see_the_word(Actor actor, String word) {
+    @Then("{actor} should see the word {string} in the result tittle")
+    public void he_should_see_the_word_in_result_tittle(Actor actor, String word) {
         actor.attemptsTo(
             Ensure.that(SearchResultQuestions.resultTitle()).containsIgnoringCase(word)
         );
@@ -35,7 +35,7 @@ public class SearchWordStepDefinition {
     @Then("{actor} should see the word {string} in the result body")
     public void he_should_see_the_word_in_result_body(Actor actor, String word) {
         actor.attemptsTo(
-            Ensure.that(SearchResultQuestions.resultTitle()).containsIgnoringCase(word),
+            Ensure.that(SearchResultQuestions.resultCEEM()).containsIgnoringCase(word),
             ScrollResult.toCeemContent()
         );
     }
