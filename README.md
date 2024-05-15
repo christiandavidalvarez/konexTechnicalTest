@@ -1,52 +1,48 @@
-Here's a README for the repository **konexTechnicalTest**:
-
----
-
 # Konex Technical Test
 
-This repository contains the implementation of the Konex technical test, focusing on automation testing using Java and Gherkin.
+Este repositorio contiene la implementación de la prueba técnica de Konex, enfocada en pruebas de automatización utilizando Java y Gherkin.
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+## Tabla de Contenidos
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Contribuir](#contribuir)
+- [Licencia](#licencia)
 
-## Installation
-To set up the project locally, follow these steps:
+## Instalación
+Para configurar el proyecto localmente, sigue estos pasos:
 
-1. Clone the repository:
+1. Clona el repositorio:
     ```bash
     git clone https://github.com/christiandavidalvarez/konexTechnicalTest.git
     ```
 
-2. Navigate to the project directory:
+2. Navega al directorio del proyecto:
     ```bash
     cd konexTechnicalTest
     ```
 
-3. Install dependencies:
+3. Instala las dependencias:
     ```bash
     mvn install
     ```
 
-## Usage
-To run the automation tests, use the following command:
+## Uso
+Para ejecutar las pruebas de automatización, usa el siguiente comando:
 ```bash
 mvn test
 ```
 
-## Project Structure
-The project is organized as follows:
+## Estructura del Proyecto
+El proyecto está organizado de la siguiente manera:
 ```
 konexTechnicalTest/
-├── .vscode/           # VS Code configuration files
-├── automationtest/    # Contains test scripts and related resources
+├── .vscode/           # Archivos de configuración de VS Code
+├── automationtest/    # Contiene scripts de prueba y recursos relacionados
 ```
 
-## Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+## Contribuir
+¡Las contribuciones son bienvenidas! Por favor, haz un fork del repositorio y crea un pull request con tus cambios.
 
-## License
-This project is licensed under the MIT License.
+## Licencia
+Este proyecto está licenciado bajo la Licencia MIT.
