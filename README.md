@@ -30,7 +30,7 @@ Para configurar el proyecto localmente, sigue estos pasos:
 ## Uso
 Para ejecutar las pruebas de automatización, usa el siguiente comando:
 ```bash
-mvn test
+mvn verify
 ```
 
 ## Estructura del Proyecto
