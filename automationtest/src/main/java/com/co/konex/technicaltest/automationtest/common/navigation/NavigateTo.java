@@ -5,6 +5,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Open;
 
 public class NavigateTo {
+
     public static Performable theYoutubeHomePage() {
         return Task.where("{0} opens the home page Youtube",
                 Open.browserOn().the(YoutubeHomePage.class));
